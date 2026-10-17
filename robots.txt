@@ -1,0 +1,29 @@
+# Allow standard web and search engine crawlers
+User-agent: *
+Allow: /
+
+# Explicitly allow AI search & retrieval bots (so AI tools can cite this site)
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+# Block AI model-training bots (stops these companies training on this content)
+User-agent: GPTBot
+Disallow: /
+
+User-agent: ClaudeBot
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+# Link to XML sitemap (helps bots index every page)
+Sitemap: https://www.aetherinteriorsandfurnishings.in/sitemap.xml

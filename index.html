@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+
+<!-- ================= SEO =================
+     TODO once you buy your domain: replace every "aetherinteriorsandfurnishings.in"
+     below (canonical, og:url, structured data url) with your real domain.
+-->
+<title>Aether Interiors &amp; Furnishings | Turnkey Interior Design &amp; Custom Furniture, Malad West, Mumbai</title>
+<meta name="description" content="Aether Interiors & Furnishings is a Malad West, Mumbai based interior design studio offering 3D design previews, whole-house custom furniture, and turnkey site execution.">
+<meta name="keywords" content="interior design Malad, interior design Mumbai, custom furniture Mumbai, turnkey interior execution, modular kitchen Mumbai, wardrobe design Mumbai">
+<meta name="author" content="Aether Interiors & Furnishings">
+<meta name="robots" content="index, follow">
+<meta name="format-detection" content="telephone=no">
+<link rel="canonical" href="https://www.aetherinteriorsandfurnishings.in/">
+<link rel="icon" href="images/favicon.png" type="image/png">
+<link rel="apple-touch-icon" href="images/favicon.png">
+<meta name="theme-color" content="#FDFBF7">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Aether Interiors & Furnishings">
+<meta property="og:title" content="Aether Interiors & Furnishings | Turnkey Interior Design & Custom Furniture, Malad West, Mumbai">
+<meta property="og:description" content="High-definition 3D previews, exact material samples, and complete interior execution for homes across Mumbai.">
+<meta property="og:url" content="https://www.aetherinteriorsandfurnishings.in/">
+<meta property="og:locale" content="en_IN">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Aether Interiors & Furnishings | Interior Design Studio, Malad West, Mumbai">
+<meta name="twitter:description" content="High-definition 3D previews, exact material samples, and complete interior execution for homes across Mumbai.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HomeAndConstructionBusiness",
+  "name": "Aether Interiors & Furnishings",
+  "description": "Turnkey interior design and custom furniture studio serving homes across Mumbai.",
+  "url": "https://www.aetherinteriorsandfurnishings.in/",
+  "telephone": "+91-84248-19575",
+  "email": "aetherwoods.crafts@gmail.com",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Malad West",
+    "addressLocality": "Mumbai",
+    "addressRegion": "Maharashtra",
+    "postalCode": "400064",
+    "addressCountry": "IN"
+  },
+  "sameAs": ["https://www.instagram.com/aether_interiors.n.furnishings/"]
+}
+</script>
+
+<!--
+  FILE MAP — header (logo+nav) / hero / #work gallery / #videos reels /
+  #about / #contact (info + inquiry form). One CSS block, one JS block,
+  no build step, no frameworks.
+
+  ADD A PHOTO: in #work, copy one <figure>…</figure>, paste it after the
+  last one, change the image src, alt, category and title.
+
+  ADD A VIDEO (an Instagram reel that plays on the site and links out to
+  the real reel when clicked): see the big comment right above the
+  #videos section further down — it walks through the exact steps.
+-->
+
+<style>
+  :root{
+    --bg:#FDFBF7; --panel:#F4EEE2; --ink:#1A1A1A; --ink-soft:#59564F;
+    --gold:#C5A059; --line:#E4DACB;
+    --serif:'Fraunces', serif; --sans:'Inter', sans-serif;
+    --max:1280px; --pad:clamp(14px,1vw,15px);
+  }
+  *,*::before,*::after{ box-sizing:border-box; }
+  html{ scroll-behavior:smooth; scroll-padding-top:88px; }
+  @media (prefers-reduced-motion: reduce){ html{ scroll-behavior:auto; } *{ transition-duration:.01ms !important; } }
+  body{ margin:0; background:var(--bg); color:var(--ink); font:16px/1.6 var(--sans); overflow-x:hidden; -webkit-font-smoothing:antialiased; }
+  img{ max-width:100%; display:block; }
+  a{ color:inherit; text-decoration:none; }
+  h1,h2,h3{ font-family:var(--serif); font-weight:400; letter-spacing:-.01em; margin:0; }
+  .wrap{ max-width:var(--max); margin:0 auto; padding:0 var(--pad); }
+  .surface{ border:1px solid var(--line); overflow:hidden; }          /* shared framed-image / card look */
+  .kicker{ color:var(--gold); font-size:.86rem; margin:0 0 10px; }
+  .divider{ height:1px; background:var(--line); border:none; margin:0; }
+  section{ padding:76px 0; }
+
+  /* ---------- header / nav ---------- */
+  header{ position:sticky; top:0; z-index:100; background:rgba(253,251,247,.92); backdrop-filter:blur(10px); border-bottom:1px solid transparent; transition:border-color .3s; }
+  header.scrolled{ border-color:var(--line); }
+  .nav-inner{ display:flex; align-items:center; justify-content:space-between; height:88px; }
+  .brand{ display:flex; align-items:center; gap:10px; }
+  .brand img{ height:50px; }
+  .brand-text{ font-family:var(--serif); font-size:1.85rem; line-height:1; display:block; }
+  .brand-sub{ display:block; font-size:.62rem; letter-spacing:.1em; color:var(--ink-soft); margin-top:1px; }
+
+  /* ---------- header / nav ---------- */
+  nav#site-nav ul{ list-style:none; display:flex; align-items:center; gap:36px; margin:0; padding:0; }
+  nav#site-nav li:not(.nav-cta-item) a{ position:relative; font-size:.94rem; padding:4px 0; display:inline-block; }
+  nav#site-nav li:not(.nav-cta-item) a::after{ content:''; position:absolute; left:0; right:0; bottom:-2px; height:1px; background:var(--gold); transform:scaleX(0); transform-origin:left; transition:transform .3s; }
+  nav#site-nav li:not(.nav-cta-item) a:hover::after{ transform:scaleX(1); }
+  
+  /* CTA pill button sizing & smooth shape */
+  nav#site-nav .nav-cta-item a{ 
+    display: inline-block;
+    border: 2px solid var(--ink); 
+    padding: 14px 32px; 
+    border-radius: 999px; 
+    font-size: 1rem; 
+    font-weight: 500;
+    transition: background .25s, color .25s; 
+  }
+  nav#site-nav .nav-cta-item a:hover{ background:var(--ink); color:var(--bg); }
+
+  /* Keep these for mobile view */
+  .burger{ display:none; flex-direction:column; gap:5px; background:none; border:none; cursor:pointer; padding:8px; }
+  .burger span{ width:22px; height:1px; background:var(--ink); display:block; }
+
+  /* ---------- buttons ---------- */
+  .btn{ display:inline-flex; align-items:center; gap:10px; padding:15px 28px; font-size:.92rem; border-radius:999px; border:1px solid var(--ink); transition:background .25s, color .25s, transform .25s; }
+  .btn:hover{ transform:translateY(-1px); }
+  .btn-primary{ background:var(--ink); color:var(--bg); }
+  .btn-primary:hover{ background:transparent; color:var(--ink); }
+  .btn-secondary{ background:transparent; }
+  .btn-secondary:hover{ background:var(--ink); color:var(--bg); }
+
+  /* ---------- hero ---------- */
+  /* ---------- hero ---------- */
+  .hero{ padding:44px 0 0; }
+  .hero-grid{ display:grid; grid-template-columns:0.8fr 1.2fr; align-items:center; gap:40px; }
+  .hero-copy{ padding-bottom:24px; }
+  .hero-eyebrow{ display:flex; align-items:center; gap:10px; color:var(--ink-soft); font-size:.86rem; margin-bottom:20px; }
+  .hero-eyebrow .dot{ width:6px; height:6px; border-radius:50%; background:var(--gold); flex:none; }
+  h1.hero-title{ font-size:clamp(2.3rem,5vw,4rem); line-height:1.08; margin-bottom:22px; }
+  .hero-desc{ max-width:46ch; color:var(--ink-soft); font-size:1.04rem; margin:0 0 30px; }
+  .hero-ctas{ display:flex; gap:16px; flex-wrap:wrap; }
+  .hero-figure{ display:flex; flex-direction:column; width:100%; }
+  .hero-figure .frame{ aspect-ratio:4/3; border:1px solid var(--line); overflow:hidden; }
+  .hero-figure img{ width:100%; height:100%; object-fit:cover; }
+  .hero-figure .tag{ margin-top:14px; font-size:.85rem; color:var(--ink-soft); }
+  .hero-figure .tag b{ color:var(--ink); display:block; font-family:var(--serif); font-size:1.05rem; font-weight:500; margin-bottom:2px; }
+  /* ---------- section headings ---------- */
+  .section-head{ display:flex; justify-content:space-between; align-items:flex-end; gap:24px; margin-bottom:36px; flex-wrap:wrap; }
+  .section-head h2{ font-size:clamp(1.9rem,3.4vw,2.6rem); max-width:16ch; }
+  .section-head p{ max-width:36ch; color:var(--ink-soft); margin:0; font-size:.98rem; }
+
+  /* ---------- gallery (masonry) ----------
+     Images pack themselves like bricks: each new image goes into whichever
+     column is currently shortest, so a short image never leaves a hole
+     under it. The gap between images is identical sideways and downwards.
+
+     HOW TO RESIZE:
+       - SPACE BETWEEN IMAGES: change --gallery-gap (a plain number, in px).
+       - IMAGES PER ROW: change --gallery-cols (3 = three per row, 2 = two).
+         Tablets and phones switch to fewer columns on their own, below.
+       - HEIGHT OF ONE IMAGE: in the HTML, each <figure> has
+         style="--h:450" -> its height in pixels. Change that number.
+       - A WIDER IMAGE: add --span:2 to its style (e.g. style="--h:450; --span:2")
+         and it stretches across two columns. */
+  .masonry{ --gallery-cols:3; --gallery-gap:24; display:grid; grid-template-columns:repeat(var(--gallery-cols),1fr); grid-auto-rows:1px; grid-auto-flow:dense; column-gap:calc(var(--gallery-gap) * 1px); row-gap:0; }
+  .masonry figure{ --h:450; --span:1; margin:0; position:relative; cursor:pointer; align-self:start; height:calc(var(--h) * 1px); grid-column:span var(--span); grid-row:span calc(var(--h) + var(--gallery-gap)); }
+  .masonry figure img{ width:100%; height:100%; object-fit:cover; transition:transform .7s cubic-bezier(.2,.7,.2,1); }
+  .masonry figure:hover img{ transform:scale(1.045); }
+  .overlay{ position:absolute; inset:0; display:flex; flex-direction:column; justify-content:flex-end; padding:22px; opacity:0; transition:opacity .35s; background:linear-gradient(180deg,rgba(26,26,26,0) 45%,rgba(20,18,14,.82) 100%); }
+  .masonry figure:hover .overlay, .masonry figure:focus-visible .overlay{ opacity:1; }
+  .overlay .cat{ color:var(--gold); font-size:.78rem; margin-bottom:4px; }
+  .overlay h3{ font-style:italic; color:#fff; font-size:1.25rem; }
+
+  /* ---------- videos ---------- */
+  .video-section{ background:var(--panel); }
+  /* A sideways-scrolling row. Add as many reels as you like — this many
+     show at once (--reels-visible), the rest scroll sideways. Change
+     --reels-visible / --reel-gap here to resize or re-space them
+     (e.g. 4.4 shows a peek of the next reel, hinting that it scrolls). */
+  .video-grid{ --reels-visible:4; --reel-gap:16px; display:flex; align-items:flex-start; gap:var(--reel-gap); overflow-x:auto; scroll-snap-type:x proximity; padding-bottom:14px; scrollbar-width:thin; scrollbar-color:var(--gold) transparent; -webkit-overflow-scrolling:touch; }
+  .reel{ flex:0 0 calc((100% - (var(--reels-visible) - 1) * var(--reel-gap)) / var(--reels-visible)); scroll-snap-align:start; position:relative; display:block; aspect-ratio:9/16; background:var(--ink); cursor:default; }
+  a.reel{ cursor:pointer; }                 /* only reels linked to a real Instagram reel are clickable */
+  .reel img, .reel video{ width:100%; height:100%; object-fit:cover; opacity:.86; transition:transform .6s, opacity .4s; }
+  .reel:hover img, .reel:hover video{ transform:scale(1.05); opacity:1; }
+  .reel .meta{ position:absolute; inset:auto 0 0 0; padding:16px; color:#fff; background:linear-gradient(180deg,rgba(0,0,0,0) 0%,rgba(0,0,0,.68) 100%); }
+  .reel .meta .kind{ font-size:.72rem; color:var(--gold); margin-bottom:4px; }
+  .reel .meta .title{ font-family:var(--serif); font-style:italic; font-size:1rem; line-height:1.25; }
+
+  /* ---------- about ---------- */
+  .about-grid{ display:grid; grid-template-columns:.85fr 1.15fr; gap:52px; align-items:center; }
+  .about-figure{ aspect-ratio:3/4; }
+  .about-figure img{ width:100%; height:100%; object-fit:cover; }
+  .about-copy p{ color:var(--ink-soft); font-size:1.02rem; max-width:54ch; }
+  .about-copy p.lede{ font-family:var(--serif); font-style:italic; color:var(--ink); font-size:1.3rem; line-height:1.45; max-width:22ch; }
+  .service-list{ list-style:none; margin:36px 0 0; padding:26px 0 0; border-top:1px solid var(--line); display:grid; grid-template-columns:1fr 1fr; gap:22px 24px; }
+  .service-list li{ font-size:.92rem; color:var(--ink-soft); padding-left:16px; position:relative; }
+  .service-list li::before{ content:''; position:absolute; left:0; top:9px; width:6px; height:1px; background:var(--gold); }
+  .service-list li b{ color:var(--ink); display:block; font-family:var(--serif); font-style:italic; font-size:1rem; margin-bottom:3px; }
+
+  /* ---------- footer / contact + inquiry form ---------- */
+  footer{ background:var(--ink); color:var(--bg); padding:76px 0 30px; }
+  footer h2{ font-family:var(--serif); font-style:italic; font-size:clamp(2rem,4vw,3.1rem); margin:0 0 20px; max-width:14ch; }
+  footer .lede-desc{ color:rgba(253,251,247,.7); max-width:52ch; margin:0 0 28px; }
+  .contact-grid{ display:grid; grid-template-columns:1fr 1fr; gap:44px; align-items:start; }
+  .contact-row{ display:flex; align-items:center; gap:14px; padding:20px 0; border-top:1px solid rgba(253,251,247,.16); }
+  .contact-row:last-of-type{ border-bottom:1px solid rgba(253,251,247,.16); }
+  .contact-row a{ font-size:1.1rem; }
+  .contact-row a:hover{ color:var(--gold); }
+  .contact-row .label{ width:120px; flex:none; color:rgba(253,251,247,.5); font-size:.82rem; }
+  .foot-col{ margin-top:32px; }
+  .foot-col h4{ font-size:.82rem; color:rgba(253,251,247,.5); font-weight:400; margin:0 0 18px; }
+  .foot-col ul{ list-style:none; margin:0; padding:0; display:flex; gap:20px; }
+  .foot-col a:hover{ color:var(--gold); }
+
+  /* inquiry form */
+  #contact-form{ background:rgba(253,251,247,.05); border:1px solid rgba(253,251,247,.18); padding:32px; }
+  #contact-form h3{ font-style:italic; font-size:1.3rem; margin-bottom:6px; }
+  #contact-form .form-note{ color:rgba(253,251,247,.6); font-size:.88rem; margin:0 0 24px; }
+  .field{ margin-bottom:18px; }
+  .field label{ display:block; font-size:.82rem; color:rgba(253,251,247,.65); margin-bottom:6px; }
+  .field input, .field textarea{
+    width:100%; background:rgba(253,251,247,.06); border:1px solid rgba(253,251,247,.25); color:var(--bg);
+    font:inherit; padding:12px 14px; border-radius:6px; resize:vertical;
+  }
+  .field input:focus, .field textarea:focus{ outline:none; border-color:var(--gold); }
+  .field textarea{ min-height:110px; }
+  #contact-form .btn-primary{ background:var(--gold); border-color:var(--gold); color:var(--ink); width:100%; justify-content:center; }
+  #contact-form .btn-primary:hover{ background:transparent; color:var(--gold); }
+  #form-status{ font-size:.86rem; color:var(--gold); margin-top:14px; display:none; }
+  .consent{ display:flex; align-items:flex-start; gap:8px; margin:4px 0 18px; }
+  .consent input{ width:auto; margin-top:3px; accent-color:var(--gold); flex:none; }
+  .consent label{ font-size:.78rem; color:rgba(253,251,247,.6); margin:0; line-height:1.5; }
+  .consent a{ color:var(--gold); text-decoration:underline; }
+
+  /* floating WhatsApp button — appears on every page */
+  .whatsapp-fab{
+    position:fixed; right:20px; bottom:calc(20px + env(safe-area-inset-bottom,0px)); z-index:200;
+    width:56px; height:56px; border-radius:50%; background:#25D366; display:flex; align-items:center; justify-content:center;
+    box-shadow:0 8px 20px rgba(0,0,0,.25); transition:transform .25s ease;
+  }
+  .whatsapp-fab:hover{ transform:scale(1.08); }
+  .whatsapp-fab svg{ width:28px; height:28px; }
+
+  .foot-bottom{ margin-top:52px; padding-top:22px; border-top:1px solid rgba(253,251,247,.16); display:flex; justify-content:space-between; flex-wrap:wrap; gap:12px; font-size:.82rem; color:rgba(253,251,247,.45); }
+
+  /* ---------- responsive ---------- */
+  @media (max-width:860px){
+    .burger{ display:flex; }
+    nav#site-nav{ position:fixed; inset:88px 0 0 0; background:var(--bg); opacity:0; pointer-events:none; transform:translateY(-8px); transition:opacity .3s, transform .3s; }
+    body.nav-open nav#site-nav{ opacity:1; pointer-events:auto; transform:translateY(0); }
+    nav#site-nav ul{ flex-direction:column; align-items:stretch; gap:0; width:100%; padding-top:12px; }
+    nav#site-nav li{ border-bottom:1px solid var(--line); }
+    nav#site-nav a{ padding:18px 24px; font-size:1.1rem; font-family:var(--serif); }
+    .nav-cta-item{ border-bottom:none !important; padding:20px 24px; }
+    .nav-cta-item a{ display:block; text-align:center; }
+    .hero-grid, .about-grid{ grid-template-columns:1fr; }
+    .about-figure{ max-width:340px; }
+  }
+  @media (max-width:920px){ .masonry{ --gallery-cols:2; } .video-grid{ --reels-visible:2.5; } }
+  @media (max-width:520px){ .video-grid{ --reels-visible:1.6; } }
+  @media (max-width:720px){
+    section{ padding:48px 0; }
+    .masonry{ --gallery-cols:1; }                      /* phones: one image per row, full width */
+    .masonry figure{ grid-column:auto; }
+    .contact-grid{ grid-template-columns:1fr; gap:40px; }
+    .service-list{ grid-template-columns:1fr; }
+  }
+</style>
+</head>
+<body>
+
+<header id="site-header">
+  <div class="wrap nav-inner">
+    <a href="#home" class="brand">
+      <img src="images/logo.png" alt="Aether Interiors & Furnishings logo" width="39" height="50" loading="eager">
+      <span>
+        <span class="brand-text">Aether</span>
+        <span class="brand-sub">INTERIORS &amp; FURNISHINGS</span>
+      </span>
+    </a>
+
+    <!-- one nav list, reused for desktop (inline) and mobile (full-screen) -->
+    <nav id="site-nav" aria-label="Primary">
+      <ul>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#videos">Videos</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li class="nav-cta-item"><a href="#contact-form">Start a Project</a></li>
+      </ul>
+    </nav>
+
+    <button class="burger" id="burger" aria-label="Toggle menu" aria-expanded="false" aria-controls="site-nav">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main id="home">
+
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div class="hero-copy">
+        <p class="hero-eyebrow"><span class="dot"></span>Turnkey Interior Design &amp; Custom Furniture Studio | Malad West, Mumbai</p>
+        <h1 class="hero-title">Luxury look. Smart budget. Made for Mumbai homes.</h1>
+        <p class="hero-desc">At Aether Interiors &amp; Furnishings, we turn your vision into reality with high-definition 3D previews, exact material samples, and complete interior execution for homes across Mumbai. From individual room concepts to full-home customized furniture packages, you get to see, feel, and refine every single corner before a single piece is built.</p>
+        <div class="hero-ctas">
+          <a href="#work" class="btn btn-primary">Explore Our Work</a>
+          <a href="#contact-form" class="btn btn-secondary">Get a Free Estimate</a>
+        </div>
+      </div>
+      <div class="hero-figure">
+        <div class="frame">
+          <img src="images/malad-residence-living-room.jpg" alt="Living room render with sectional sofa and marble flooring, Malad residence" width="1700" height="788" loading="eager" fetchpriority="high">
+        </div>
+        <p class="tag"><b>Malad Residence</b>Living room layout &amp; custom furnishings</p>
+      </div>
+    </div>
+  </section>
+
+  <hr class="divider">
+
+  <!-- ============ WORK — copy one <figure> block to add a photo ============ -->
+  <section id="work">
+    <div class="wrap">
+      <div class="section-head">
+        <div><p class="kicker">Selected work</p><h2>Crafted room by room, tailored to your lifestyle.</h2></div>
+        <p>Take a look at how Aether Interiors &amp; Furnishings turns empty spaces into warm, functional, and gorgeous living areas — from complete apartment makeovers to bespoke space-saving layouts.</p>
+      </div>
+      <div class="masonry">
+        
+        <figure tabindex="0" class="surface" style="--h:430"><img src="images/passage.png" alt="Entryway passage featuring custom fluted woodwork console, integrated warm lighting, and hidden shoe storage" loading="lazy"><div class="overlay"><p class="cat">Entryway Console</p><h3>Custom woodwork &amp; warm accent features</h3></div></figure>
+        <figure tabindex="0" class="surface" style="--h:520"><img src="images/bedroom1.png" alt="Master bedroom with space-maximizing 4-door textured wardrobe, integrated full-wall study desk, overhead loft storage, and custom headboard" loading="lazy"><div class="overlay"><p class="cat">Master Bedroom</p><h3>Seamless full-wall study & wardrobe integration</h3></div></figure>
+        <figure tabindex="0" class="surface" style="--h:420"><img src="images/bedroom2.png" alt="Kids bedroom featuring a playful star-patterned accent wall, custom wavy cove backlighting behind the bed, and matching mauve arched wardrobes" loading="lazy"><div class="overlay"><p class="cat">Kids Bedroom</p><h3>Whimsical waved backlighting & playful star wall</h3></div></figure>
+        <figure tabindex="0" class="surface" style="--h:450"><img src="images/ceiling.png" alt="Interior view featuring a multi-layered false ceiling with integrated warm LED cove lighting and recessed round panel lights, centered by a modern brown ceiling fan, set in a room with fluted wall paneling and a custom closet" loading="lazy"><div class="overlay"><p class="cat">Ceiling &amp; Ceiling Design</p><h3>Layered cove lighting & architectural ceiling design</h3></div></figure>
+        <figure tabindex="0" class="surface" style="--h:540"><img src="images/kitchen2.png" alt="high-end modular kitchen combining matte charcoal lower cabinetry with natural wood-finish upper cabinets, featuring extensive storage, integrated open lit shelves" loading="lazy"><div class="overlay"><p class="cat">Kitchen</p><h3>Bespoke upper cabinetry & illuminated display alcoves</h3></div></figure>
+        <figure tabindex="0" class="surface" style="--h:550"><img src="images/TVunit.png" alt="wall-mounted screen with integrated audio speakers,integrated backlit mandir unit with fluted glass doors, and corner display shelves" loading="lazy"><div class="overlay"><p class="cat">Living room</p><h3>Acoustic-panel TV wall with fluted glass mandir</h3></div></figure>
+      </div>
+    </div>
+  </section>
+
+  <!--
+    ============ VIDEOS — Instagram reels ============
+    Each reel below plays on the page as a real, self-hosted video (no
+    backend, nothing external to load) and links straight to the actual
+    reel on Instagram when clicked.
+
+    TO ADD ONE OF YOUR OWN:
+      1) In the Instagram app, open your reel → tap "..." → Save video.
+         This saves the .mp4 file to your phone/computer.
+      2) Create a folder named "videos" next to this index.html (if it
+         doesn't exist yet) and put that .mp4 file inside it.
+      3) Copy one whole <a class="reel surface">...</a> block below,
+         paste it after the last one, then change just three things:
+           - href        → the reel's Instagram URL (the one you copy
+                            with Instagram's own "Copy link" button)
+           - video src   → videos/your-file.mp4
+           - the two <p> lines describing the clip
+      The poster="" image shows only for the instant before the video
+      loads, so any existing photo in /images works fine there.
+
+      HOW MANY REELS? As many as you like. Four show at once on a
+      computer; add more and the row scrolls sideways. Keep each video
+      file small (a few MB is plenty) and under 25 MB, which is the most
+      Cloudflare's free hosting allows for a single file.
+
+    This is a plain HTML5 <video> tag — no third-party script, no API
+    key, nothing that can break or need updating later.
+  -->
+  <section id="videos" class="video-section">
+    <div class="wrap">
+      <div class="section-head">
+        <div><p class="kicker">Videos &amp; on-site edits</p><h2>Real walkthroughs, site progress, and transformations.</h2></div>
+        <p>Watch quick clips from active Aether Interiors &amp; Furnishings site locations across Mumbai — from initial layout previews to site execution and final handover reveals.</p>
+      </div>
+     <div class="video-grid" role="region" aria-label="Video reels, scroll sideways for more" tabindex="0">
+
+        <!-- Reel 1: Passage -->
+        <a class="reel surface" href="https://www.instagram.com/reel/Decf3SbsrFf/?utm_source=ig_web_copy_link&rpxt=MzRlODBiNWFlZA==&srtk=MzRlODBiNWFlZA==&amp;stkn=MzRlODBiNWFlZA==" target="_blank" rel="noopener" aria-label="Watch on Instagram: Entryway console">
+          <video src="images/passagevid.mp4" poster="images/passage.png" autoplay muted loop playsinline></video>
+          <div class="meta"><p class="kind">Entryway-console</p><p class="title">Custom Passage Craftsmanship</p></div>
+        </a>
+
+        <!-- Reel 2: Living room -->
+        <a class="reel surface" href="https://www.instagram.com/reel/Ded3YIAssmZ/?utm_source=ig_web_copy_link&cplk=MzRlODBiNWFlZA==&srtk=MzRlODBiNWFlZA==" target="_blank" rel="noopener" aria-label="Watch on Instagram: Living room tour">
+          <video src="images/Livroom.mp4" poster="images/3.png" autoplay muted loop playsinline></video>
+          <div class="meta"><p class="kind">Concept to reality</p><p class="title">Living room Tour</p></div>
+        </a>
+
+        <!-- Reel 3: Foyer -->
+        <a class="reel surface" href="https://www.instagram.com/reel/DeglKXnMUHE/?utm_source=ig_web_copy_link" target="_blank" rel="noopener" aria-label="Watch on Instagram: kitchen tour">
+          <video src="images/kitchen.mp4" poster="images/3.png" autoplay muted loop playsinline></video>
+          <div class="meta"><p class="kind">Modular Kitchen</p><p class="title">Ergonomic Storage & Integrated Lighting</p></div>
+        </a>
+
+        <!-- Reel 4: Ceiling -->
+        <a class="reel surface" href="https://www.instagram.com/reel/DemZQQUsnlp/?utm_source=ig_web_copy_link&xtok=MzRlODBiNWFlZA==&srtk=MzRlODBiNWFlZA==" target="_blank" rel="noopener" aria-label="Watch on Instagram: Living room tour">
+          <video src="images/kidsroom1.mp4" poster="images/3.png" autoplay muted loop playsinline></video>
+          <div class="meta"><p class="kind">Kids room</p><p class="title">Whimsical Kids room</p></div>
+        </a>
+
+        
+
+
+      
+
+
+        
+
+        
+
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="wrap about-grid">
+      <div class="about-figure surface"><img src="images/Sofa.jpeg" alt="Panelled living room wall with warm sconces" width="1400" height="788" loading="lazy"></div>
+      <div class="about-copy">
+        <p class="kicker">About Us</p>
+        <p class="lede">Personal attention, custom craft, built around your budget.</p>
+        <p>Based out of Malad West, Aether Interiors &amp; Furnishings is a specialized design studio handling everything from space planning to full site execution. We believe high-end interior design should be seamless, stress-free, and aligned with your personal financial comfort.</p>
+        <p>We don't do cookie-cutter templates. We work directly with homeowners across Mumbai to deliver completely tailored interiors. Whether you need a single room upgraded or a complete whole-house custom furniture setup — including wardrobes, modular kitchens, TV units, beds, and storage — everything is designed to your exact specifications, manufactured in our workshop, and personally supervised on-site.</p>
+        <ul class="service-list">
+          <li><b>3D Design &amp; Spatial Planning</b>Scaled floor plans, interactive 3D site previews, and curated material boards.</li>
+          <li><b>Whole-House Customized Furniture</b>Modular kitchens, walk-in wardrobes, custom beds, sofas, TV units &amp; crockery cabinets built for your space.</li>
+          <li><b>Turnkey Site Execution</b>Full on-site management including carpentry, electrical work, false ceilings, masonry &amp; painting.</li>
+          <li><b>Furnishing &amp; Final Styling</b>Hand-picked curtains, rugs, wallpaper, lighting fixtures &amp; decorative accents.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <footer id="contact">
+    <div class="wrap">
+      <div class="contact-grid">
+        <!-- Left Column: Title, Intro Text & Contact Information -->
+        <div class="contact-left-col">
+          <p class="kicker" style="color:var(--gold)">Get in touch</p>
+          <h2>Ready to transform your space? Let's talk.</h2>
+          <p class="lede-desc">Whether you are planning a full flat renovation, ordering customized furniture for your whole house, or simply want to explore design ideas within a specific budget, Aether Interiors &amp; Furnishings is always here to guide you. We take design and furniture execution orders across all of Mumbai. Feel free to contact us anytime for an initial consultation or a site visit!</p>
+
+          <div class="contact-details" style="margin-top: 32px;">
+            <div class="contact-row"><span class="label">Studio</span><span>Malad West, Mumbai, Maharashtra 400064</span></div>
+            <div class="contact-row"><span class="label">Phone / WhatsApp</span><a href="tel:+918424819575">+91 84248 19575</a><a href="tel:+918450941834">+91 84509 41834</a></div>
+            <div class="contact-row"><span class="label">Email</span><a href="mailto:aetherwoods.crafts@gmail.com">aetherwoods.crafts@gmail.com</a></div>
+
+            <div class="foot-col">
+              <h4>Follow our journey</h4>
+              <ul>
+                <li><a href="https://www.instagram.com/aether_interiors.n.furnishings/" target="_blank" rel="noopener">Instagram</a></li>
+                <li><a href="#" target="_blank" rel="noopener">LinkedIn</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Column: Inquiry Form aligned parallel to the heading.
+             Pure client-side form — no server, no API, nothing to
+             configure on Cloudflare Pages. Submitting opens the
+             visitor's own email app with these details pre-filled, so
+             there's no backend to secure, rate-limit, or leak errors
+             from. All validation (required fields, 10-digit phone,
+             valid email, 15-char name limit) is enforced natively by
+             the browser via the attributes below — the browser shows
+             its own inline error if something's invalid, so there's no
+             custom validation JS to maintain. -->
+        <form id="contact-form">
+          <h3>Start a project</h3>
+          <p class="form-note">Tell us a little about you — we'll get back within a day.</p>
+
+          <div class="field">
+            <label for="pf-name">Name <span style="opacity:.6">(max 15 characters)</span></label>
+            <input id="pf-name" name="name" type="text" maxlength="15" required>
+          </div>
+          <div class="field">
+            <label for="pf-phone">Phone number</label>
+            <input id="pf-phone" name="phone" type="tel" inputmode="numeric" pattern="[0-9]{10}" maxlength="10" placeholder="10-digit mobile number" title="Enter a 10-digit phone number" required>
+          </div>
+          <div class="field">
+            <label for="pf-email">Email <span style="opacity:.6">(optional)</span></label>
+            <input id="pf-email" name="email" type="email" placeholder="you@example.com">
+          </div>
+          <div class="field">
+            <label for="pf-message">Tell us about your project <span style="opacity:.6">(optional)</span></label>
+            <textarea id="pf-message" name="message"></textarea>
+          </div>
+
+          <div class="consent">
+            <input type="checkbox" id="pf-consent" name="consent" required>
+            <label for="pf-consent">I agree to be contacted about this enquiry and to Aether Interiors &amp; Furnishings storing my details for that purpose, as described in the <a href="privacy.html" target="_blank" rel="noopener">Privacy Policy</a>.</label>
+          </div>
+
+          <button type="submit" class="btn btn-primary">Send Inquiry</button>
+          <p id="form-status"></p>
+        </form>
+      </div>
+    </div>
+    <div class="wrap foot-bottom">
+      <span>© 2026 Aether Interiors &amp; Furnishings. All rights reserved. · <a href="privacy.html" style="text-decoration:underline">Privacy Policy</a> · We don't use cookies.</span>
+      <span>Malad West, Mumbai, India</span>
+    </div>
+  </footer>
+
+  <a class="whatsapp-fab" href="https://wa.me/918450941834?text=Hi%20Aether%20Interiors%2C%20I%27d%20like%20to%20know%20more%20about%20your%20services" target="_blank" rel="noopener" aria-label="Chat with us on WhatsApp">
+    <svg viewBox="0 0 32 32" fill="#fff"><path d="M16.001 3C9.373 3 4 8.373 4 15.001c0 2.31.643 4.523 1.86 6.457L4 29l7.723-1.827A11.94 11.94 0 0 0 16.001 27C22.63 27 28 21.627 28 15.001 28 8.373 22.63 3 16.001 3Zm6.995 17.09c-.297.836-1.47 1.53-2.412 1.73-.642.135-1.48.243-4.302-.924-3.607-1.492-5.926-5.155-6.106-5.394-.18-.24-1.464-1.947-1.464-3.714s.914-2.634 1.238-2.996c.324-.362.708-.452.944-.452.236 0 .472.002.678.012.218.01.51-.083.798.608.297.71 1.008 2.478 1.096 2.658.09.18.15.39.03.63-.12.24-.18.39-.36.6-.18.21-.378.468-.54.63-.18.18-.366.375-.157.735.208.36.927 1.53 1.992 2.478 1.37 1.222 2.524 1.6 2.884 1.78.36.18.57.15.78-.09.21-.24.9-1.05 1.14-1.41.24-.36.48-.3.81-.18.33.12 2.098.99 2.458 1.17.36.18.6.27.688.42.09.15.09.87-.207 1.71Z"/></svg>
+  </a>
+
+</main>
+
+<script>
+  // sticky header border once scrolled
+  const header = document.getElementById('site-header');
+  const onScroll = () => header.classList.toggle('scrolled', window.scrollY > 8);
+  onScroll();
+  addEventListener('scroll', onScroll, { passive:true });
+
+  // mobile menu: one nav list, toggled via a body class
+  const burger = document.getElementById('burger');
+  burger.addEventListener('click', () => {
+    const open = document.body.classList.toggle('nav-open');
+    burger.setAttribute('aria-expanded', open);
+  });
+  document.querySelectorAll('#site-nav a').forEach(a => a.addEventListener('click', () => {
+    document.body.classList.remove('nav-open');
+    burger.setAttribute('aria-expanded', 'false');
+  }));
+
+  // Reels only play while they're on screen, so you can add as many as you
+  // like without slowing the page down (offscreen ones pause automatically).
+  if ('IntersectionObserver' in window) {
+    const reelObserver = new IntersectionObserver(entries => entries.forEach(entry => {
+      if (entry.isIntersecting) entry.target.play().catch(() => {});
+      else entry.target.pause();
+    }), { threshold: 0.4 });
+    document.querySelectorAll('.reel video').forEach(v => reelObserver.observe(v));
+  }
+
+  // Note: video reel tiles are now plain <a> links (or plain images for
+  // ones not yet linked to a reel) — no extra JS needed for them to work.
+
+  // "Start a project" form -> opens the visitor's own email app with
+  // their details pre-filled, addressed to us. Nothing is sent to any
+  // server: the browser checks the required/pattern/maxlength rules on
+  // submit (showing its own built-in message if something's missing or
+  // wrong), and only once everything's valid do we build the email.
+  (() => {
+    const form = document.getElementById('contact-form');
+    form.addEventListener('submit', e => {
+      e.preventDefault();
+      if (!form.checkValidity()) { form.reportValidity(); return; }
+
+      const name = document.getElementById('pf-name').value.trim();
+      const phone = document.getElementById('pf-phone').value.trim();
+      const email = document.getElementById('pf-email').value.trim();
+      const message = document.getElementById('pf-message').value.trim();
+
+      const subject = encodeURIComponent(`New project inquiry — ${name}`);
+      const bodyLines = [
+        `Name: ${name}`,
+        `Phone: ${phone}`,
+        email ? `Email: ${email}` : null,
+        '',
+        'Project details:',
+        message || '—'
+      ].filter(line => line !== null).join('\n');
+
+      window.location.href = `mailto:aetherwoods.crafts@gmail.com?subject=${subject}&body=${encodeURIComponent(bodyLines)}`;
+
+      const status = document.getElementById('form-status');
+      status.style.display = 'block';
+      status.textContent = 'Opening your email app to send this to us…';
+    });
+  })();
+</script>
+</body>
+</html>
